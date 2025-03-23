@@ -1,2 +1,3 @@
 # Python-Projects
-A Repository for all my Python codes
+A <b>Repository</b> which contains all my Python codes<br>
+In this <b>Repositroy</b>, I will share all my <b>Python</b> Projects which I made during learning journey, from all <b>Begener</b> to <b>Advanced</b>
