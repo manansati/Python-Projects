@@ -1,18 +1,18 @@
 # Password Generator by Manan
 import random
-import os
+import sys
 
 try:
     length=int(input("Enter the length of the Password: "))
 except:
     print("Please enter a valid number and try again ")
-    os.system('exit')
+    sys.exit()
 
 words=('qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()')
 
 password=''
 for i in range (length):
-    temp=random.randint(0,len(words))
+    temp=random.randint(0,len(words)-1)
     password+=words[temp]
 
 
